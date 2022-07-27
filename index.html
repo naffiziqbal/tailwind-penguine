@@ -1,55 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Penguin Fashion Tailwind</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Penguin Fashion Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
           }
         }
-      </script>
+      }
+    }
+  </script>
 </head>
+
 <body>
 
-<header>
-  <section class="container mx-auto sm:flex justify-center items-center justify-evenly bg-slate-800 p-4 text-white">
-<div class="">
-  <h1 class="text-2xl sm:text-6xl uppercase font-bold">
-    <span class="text-yellow-500">Be The Penguin</span><br>
-    <span> Of Winter</span>
-  </h1>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-  <button class="uppercase bg-lime-600 p-3 rounded text-white mt-3 flex justify-around w-40"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-  </svg>Buy Now</button>
-</div>
-<div class="img">
-  <img class="w-1/2 sm:w-full" src="./images/model.png" alt="">
-</div>
-  </section>
-</header>
+  <header>
+    <section class="container mx-auto sm:flex justify-center items-center justify-evenly bg-slate-800 p-4 text-white">
+      <div class="">
+        <h1 class="text-2xl sm:text-6xl uppercase font-bold">
+          <span class="text-yellow-500">Be The Penguin</span><br>
+          <span> Of Winter</span>
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <button class="uppercase bg-lime-600 p-3 rounded text-white mt-3 flex justify-around w-40"> <svg
+            xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>Buy Now</button>
+      </div>
+      <div class="img">
+        <img class="w-1/2 sm:w-full" src="./images/model.png" alt="">
+      </div>
+    </section>
+  </header>
+
+  <main class="container mx-auto mt-10">
+    <section>
+      <h2 class="text-5xl font-semibold">Women Section</h2>
+      <!-- Jacket One -->
+      <div class=" grid md:grid-cols-2  lg:grid-cols-3 gap-7">
+        <div class=" p-4 shadow-lg ">
+          <div class="p-5 bg-slate-200 rounded-xl">
+            <img src="./images/jacket-1.png" alt="">
+          </div>
+          <div class="card-text">
+            <h3 class="text-3xl font-semibold">
+              Yellow Jacket
+            </h3>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl font-bold">$400</h2>
+              <button class="uppercase bg-lime-600 p-3 rounded text-white mt-3 flex justify-around w-40"> <svg
+                  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class=" p-4 shadow-lg">
+          <div class="p-5 bg-slate-200 rounded-xl">
+            <img src="./images/jacket-2.png" alt="">
+          </div>
+          <div class="card-text">
+            <h3 class="text-3xl font-semibold">
+              Yellow Jacket
+            </h3>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl font-bold">$400</h2>
+              <button class="uppercase bg-lime-600 p-3 rounded text-white mt-3 flex justify-around w-40"> <svg
+                  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class=" p-4 shadow-lg">
+          <div class="p-5 bg-slate-200 rounded-xl">
+            <img src="./images/jacket-3.png" alt="">
+          </div>
+          <div class="card-text">
+            <h3 class="text-3xl font-semibold">
+              Yellow Jacket
+            </h3>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl font-bold">$400</h2>
+              <button class="uppercase bg-lime-600 p-3 rounded text-white mt-3 flex justify-around w-40"> <svg
+                  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-10  ">
+      <h2 class="text-5xl font-semibold pb-10">Men's Section</h2>
+      <!-- Jacket One -->
+      <div class=" grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <div class=" p-4 shadow-lg ">
+          <div class="p-5 bg-slate-200 rounded-xl">
+            <img src="./images/jacket-4.png" alt="">
+          </div>
+          <div class="card-text">
+            <h3 class="text-3xl font-semibold">
+              Yellow Jacket
+            </h3>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl font-bold">$400</h2>
+              <button class="uppercase bg-lime-600 p-3 rounded text-white mt-3 flex justify-around w-40"> <svg
+                  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class=" p-4 shadow-lg">
+          <div class="p-5 bg-slate-200 rounded-xl">
+            <img src="./images/jacket-5.png" alt="">
+          </div>
+          <div class="card-text">
+            <h3 class="text-3xl font-semibold">
+              Yellow Jacket
+            </h3>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl font-bold">$400</h2>
+              <button class="uppercase bg-lime-600 p-3 rounded text-white mt-3 flex justify-around w-40"> <svg
+                  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class=" p-4 shadow-lg">
+          <div class="p-5 bg-slate-200 rounded-xl">
+            <img src="./images/jacket-5.png" alt="">
+          </div>
+          <div class="card-text">
+            <h3 class="text-3xl font-semibold">
+              Yellow Jacket
+            </h3>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="flex justify-between">
+              <h2 class="text-5xl font-bold">$400</h2>
+              <button class="uppercase bg-lime-600 p-3 rounded text-white mt-3 flex justify-around w-40"> <svg
+                  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
 
 
 
-
-<!-- <div class="unused">
+  <!-- <div class="unused">
   -- ---------------------------------------------------- --
   - ---------------------------------------------------- --
   -- Live Site Link 
    -- https://naffiziqbal.github.io/tailwind-penguine/ -
    - ---------------------------------------------------- -
   - ---------------------------------------------------- -
- </div> --> 
+ </div> -->
 
 </body>
+
 </html>
